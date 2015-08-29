@@ -1,0 +1,12 @@
+# Site settings
+title: VA Bayreuth 2015 - Informatikkurs
+email: contact.daviddao@gmail.com
+description: "Skript für den Informatikkurs der VA Bayreuth 2015"
+baseurl: ""
+url: ""
+twitter_username: 
+github_username:  
+
+# Build settings
+markdown: redcarpet
+permalink: pretty

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /ressourcen/
+permalink: /ressourcen-01/
 ---
 
 ## Links 

@@ -7,7 +7,7 @@
     <title>VA Bayreuth 2015 - Informatikkurs</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Skript für den Informatikkurs der VA Bayreuth 2015">
-    <link rel="canonical" href="/theory/">
+    <link rel="canonical" href="/programming-foundations/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -50,36 +50,31 @@
   </header>
 
   <article class="post-content">
-  <h2>Theorie - Denken wie ein Computer</h2>
+  <h2>Schlüsselwörter</h2>
 
-<h3>Bits und Bytes</h3>
+<p>In diesem Kapitel lernen wir die Schlüsselwörter der Programmiersprachen kennen.
+Grundkonzepte wie Schleifen und Bedingungen erlauben uns erst die komplexen Programme der Gegenwart zu schreiben.</p>
 
-<p>Mit Informatik verbindet man Hacker, Tüftler und eine ewige lange Sequenz von Nullen und Einsen. 
-Doch bedeuten die ganzen Nullen und Einsen in der Informatik?</p>
+<h3>Entscheidungen</h3>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span><span class="p">(</span><span class="n">Bedingung</span><span class="p">)</span> <span class="p">{</span>
+  <span class="o">//</span><span class="n">Code</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="o">//</span><span class="n">Code</span> 
+<span class="p">}</span>
+</code></pre></div>
+<p>Die <b>if</b> Abfrage prüft, ob die Bedingung wahr wird und führt den Code aus. Ansonsten führe den Code in <b>else</b> aus.</p>
 
-<p>Es geht um die Frage, wie ein Computer Information versteht und wahrnimmt.</p>
-
-<p>Wir stellen Zahlen im <b>Dezimalsystem</b> dar:</p>
-
-<ul>
-<li>321 = 3 * 100 + 2 * 10 + 1 * 1</li>
-</ul>
-
-<p>D.h. wie haben 10 Möglichkeiten pro Zifferstelle und jede Zifferstelle wird mit 10 hoch etwas multipliziert.
-Super für uns weil wir Zehn Finger haben. Für uns ist dieses System das natürlichste der Welt.</p>
-
-<p>Doch ein Computer hat keine Zehn Finger - er nimmt nur eine einzige Sache war. Eingang und Ausgang. Strom an und Strom aus.
-0 und 1.</p>
-
-<p>Ein Zahlensystem mit nur zwei Möglichkeiten nennt man <b>binäres Zahlensystem</b>. Es ist das perfekte System für den Computer.</p>
-
-<ul>
-<li>0 (dez) = 000 = 0 * 4 + 0 * 2 + 0 * 1</li>
-<li>1 (dez) = 001 = 0 * 4 + 0 * 2 + 1 * 1</li>
-<li>2 (dez) = 010 = 0 * 4 + 1 * 2 + 0 * 1</li>
-<li>3 (dez) = 011 = 0 * 4 + 1 * 2 + 1 * 1</li>
-<li>4 (dez) = 100 = 1 * 4 + 0 * 2 + 0 * 1</li>
-</ul>
+<h3>Schleifen</h3>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">for</span><span class="p">(</span><span class="n">Zahl</span><span class="p">)</span> <span class="p">{</span>
+  <span class="o">//</span><span class="n">Code</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Die <b>for</b> Schleife ist eine &quot;Iterationsschleife&quot; und führt den Code sooft aus, wie in der Iteration angegeben</p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">while</span><span class="p">(</span><span class="n">Bedingung</span><span class="p">)</span> <span class="p">{</span>
+  <span class="o">//</span><span class="n">Code</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Die <b>while</b> Schleife ist eine &quot;Bedingungsschleife&quot; und führt den Code sooft aus solange die Bedingung wahr ist</p>
 
   </article>
 

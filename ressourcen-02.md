@@ -7,7 +7,7 @@ permalink: /ressourcen-02/
 
 ### Werkzeug
 
-[MIT App Inventor](ai2.appinventor.mit.edu)
+[MIT App Inventor](http://ai2.appinventor.mit.edu)
 
 - Meldet euch beim MIT App Inventor an (notfalls Google Adresse erstellen)
 
